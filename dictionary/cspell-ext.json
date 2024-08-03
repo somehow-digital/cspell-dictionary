@@ -1,0 +1,18 @@
+{
+	"id": "somehow-digital",
+	"name": "somehow.digital Dictionary",
+	"description": "Shared dictionary for somehow.digital projects.",
+	"readonly": true,
+	"dictionaryDefinitions": [
+		{
+			"name": "general",
+			"path": "./general.txt",
+			"description": "General words and phrases."
+		},
+		{
+			"name": "brands",
+			"path": "./brands.txt",
+			"description": "Names of projects, libraries and companies."
+		}
+	]
+}

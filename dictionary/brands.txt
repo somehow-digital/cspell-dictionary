@@ -1,0 +1,10 @@
+astro
+astrojs
+dotenvx
+fontsource
+nvmrc
+pandacss
+qwik
+supabase
+ulidx
+valibot
