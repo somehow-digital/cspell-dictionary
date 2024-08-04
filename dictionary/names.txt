@@ -6,6 +6,7 @@ modernizr
 nvmrc
 pandacss
 qwik
+qwikdev
 sonarcloud
 stackoverflow
 supabase
