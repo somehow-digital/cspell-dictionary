@@ -46,6 +46,7 @@
 		"**/.gitignore",
 		"**/.gitattributes",
 		"**/.editorconfig",
-		"**/.prettierignore"
+		"**/.prettierignore",
+		"**/*.tsbuildinfo"
 	]
 }
