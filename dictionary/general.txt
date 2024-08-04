@@ -1,5 +1,8 @@
+sublicensable
+
 outdir
 nosniff
+wght
 
 cjsx
 mjsx

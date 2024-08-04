@@ -18,12 +18,12 @@
 	],
 	"dictionaryDefinitions": [
 		{
-			"name": "general",
+			"name": "somehow-digital/general",
 			"path": "./general.txt",
 			"description": "General words and phrases."
 		},
 		{
-			"name": "names",
+			"name": "somehow-digital/names",
 			"path": "./names.txt",
 			"description": "Names of projects, libraries and companies."
 		}

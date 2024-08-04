@@ -2,9 +2,12 @@ astro
 astrojs
 dotenvx
 fontsource
+modernizr
 nvmrc
 pandacss
 qwik
+sonarcloud
+stackoverflow
 supabase
 ulidx
 valibot
