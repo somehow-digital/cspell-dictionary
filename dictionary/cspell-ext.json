@@ -3,8 +3,10 @@
 	"name": "somehow.digital Dictionary",
 	"description": "Shared dictionary for somehow.digital projects.",
 	"readonly": true,
+	"import": ["@cspell/dict-de-de"],
 	"dictionaries": [
 		"en_US",
+		"de-de",
 		"softwareTerms",
 		"typescript",
 		"node",
@@ -14,7 +16,9 @@
 		"misc",
 		"filetypes",
 		"fonts",
-		"data-science"
+		"data-science",
+		"somehow-digital/general",
+		"somehow-digital/names"
 	],
 	"dictionaryDefinitions": [
 		{
