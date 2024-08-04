@@ -3,6 +3,19 @@
 	"name": "somehow.digital Dictionary",
 	"description": "Shared dictionary for somehow.digital projects.",
 	"readonly": true,
+	"dictionaries": [
+		"en_US",
+		"softwareTerms",
+		"typescript",
+		"node",
+		"html",
+		"css",
+		"bash",
+		"misc",
+		"filetypes",
+		"fonts",
+		"data-science"
+	],
 	"dictionaryDefinitions": [
 		{
 			"name": "general",
@@ -10,9 +23,25 @@
 			"description": "General words and phrases."
 		},
 		{
-			"name": "brands",
-			"path": "./brands.txt",
+			"name": "names",
+			"path": "./names.txt",
 			"description": "Names of projects, libraries and companies."
 		}
+	],
+	"ignorePaths": [
+		"**/node_modules/",
+		"**/.git/",
+		"**/.husky/",
+		"**/.idea/",
+		"**/CODEOWNERS",
+		"**/package.json",
+		"**/pnpm-lock.yaml",
+		"**/tsconfig.json",
+		"**/.npmrc",
+		"**/.nvmrc",
+		"**/.gitignore",
+		"**/.gitattributes",
+		"**/.editorconfig",
+		"**/.prettierignore"
 	]
 }
