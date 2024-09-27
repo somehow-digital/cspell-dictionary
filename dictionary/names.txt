@@ -1,5 +1,6 @@
 astro
 astrojs
+commitlint
 dotenvx
 fontsource
 modernizr
