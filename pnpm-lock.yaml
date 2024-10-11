@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@cspell/dict-de-de':
         specifier: ^4.0.0
-        version: 4.0.0
+        version: 4.0.3
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.3.0
@@ -205,8 +205,8 @@ packages:
   '@cspell/dict-data-science@2.0.1':
     resolution: {integrity: sha512-xeutkzK0eBe+LFXOFU2kJeAYO6IuFUc1g7iRLr7HeCmlC4rsdGclwGHh61KmttL3+YHQytYStxaRBdGAXWC8Lw==}
 
-  '@cspell/dict-de-de@4.0.0':
-    resolution: {integrity: sha512-MLRMRy44xdjtBLW2jqO73RTbnNfSLztK/mG1/LSblY4hpWxc6iJBAVA7hQye8m06sde6FHgnP38x+jgql/6q6A==}
+  '@cspell/dict-de-de@4.0.3':
+    resolution: {integrity: sha512-HxoPd3ra/gHVeUKq9NMCX5gOHpaL9lyhHQi/2CXBrSE7yrB5cusrPoKFh+xYGI1hG8rrrPLLDKF+vbB66YR4/A==}
 
   '@cspell/dict-django@4.1.0':
     resolution: {integrity: sha512-bKJ4gPyrf+1c78Z0Oc4trEB9MuhcB+Yg+uTTWsvhY6O2ncFYbB/LbEZfqhfmmuK/XJJixXfI1laF2zicyf+l0w==}
@@ -1511,7 +1511,7 @@ snapshots:
 
   '@cspell/dict-data-science@2.0.1': {}
 
-  '@cspell/dict-de-de@4.0.0': {}
+  '@cspell/dict-de-de@4.0.3': {}
 
   '@cspell/dict-django@4.1.0': {}
 
