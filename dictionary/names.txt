@@ -4,6 +4,8 @@ commitlint
 dotenvx
 fontsource
 modernizr
+nuxt
+nuxtjs
 nvmrc
 pandacss
 qwik
