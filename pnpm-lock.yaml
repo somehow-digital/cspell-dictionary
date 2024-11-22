@@ -17,7 +17,7 @@ importers:
         version: 19.6.0(@types/node@22.9.0)(typescript@5.5.4)
       '@somehow-digital/commitlint-config':
         specifier: ^1.0.0
-        version: 1.0.0(@commitlint/cli@19.6.0(@types/node@22.9.0)(typescript@5.5.4))(cspell@8.16.0)
+        version: 1.1.0(@commitlint/cli@19.6.0(@types/node@22.9.0)(typescript@5.5.4))(cspell@8.16.0)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.3.3)
@@ -51,6 +51,10 @@ packages:
     resolution: {integrity: sha512-v17BgGD9w5KnthaKxXnEg6KLq6DYiAxyiN44TpiRtqyW8NSq+Kx99mkEG8Qo6uu6cI5eMzMojW2muJxjmPnF8w==}
     engines: {node: '>=v18'}
     hasBin: true
+
+  '@commitlint/config-conventional@19.6.0':
+    resolution: {integrity: sha512-DJT40iMnTYtBtUfw9ApbsLZFke1zKh6llITVJ+x9mtpHD08gsNXaIRqHTmwTZL3dNX5+WoyK7pCN/5zswvkBCQ==}
+    engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.5.0':
     resolution: {integrity: sha512-CHtj92H5rdhKt17RmgALhfQt95VayrUo2tSqY9g2w+laAXyk7K/Ef6uPm9tn5qSIwSmrLjKaXK9eiNuxmQrDBw==}
@@ -328,9 +332,9 @@ packages:
     resolution: {integrity: sha512-zW+6hAieD/FjysfjY4mVv7iHWWasBP3ldj6L+xy2p4Kuax1nug7uuJqMHlAVude/OywNwENG0rYaP/P9Pg4O+w==}
     engines: {node: '>=18.0'}
 
-  '@somehow-digital/commitlint-config@1.0.0':
-    resolution: {integrity: sha512-rDqDGyHfE26k81a/DDrqQ2E+Pf4cdhTkcUbb0Emz/tE/PWIpSvgG4ENvRYlziuS72+9wHxMTbBcvvtMCmkWGDw==}
-    engines: {node: '>=20', pnpm: '>=9'}
+  '@somehow-digital/commitlint-config@1.1.0':
+    resolution: {integrity: sha512-OPsxMUicoKLTivMC7wABl/3rU9mSBb7hrcIz4jxZ7U21d41maOTS45yFNFrFRwzyl5U5hPZGRRsptVREPtHA9A==}
+    engines: {node: '>=22', pnpm: '>=9'}
     peerDependencies:
       '@commitlint/cli': ^19.5.0
 
@@ -451,6 +455,10 @@ packages:
 
   conventional-changelog-angular@7.0.0:
     resolution: {integrity: sha512-ROjNchA9LgfNMTTFSIWPzebCwOGFdgkEq45EnvvrmSLvCtAw0HSmrCs7/ty+wAeYUZyNay0YMUNYFTRL72PkBQ==}
+    engines: {node: '>=16'}
+
+  conventional-changelog-conventionalcommits@7.0.2:
+    resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
     engines: {node: '>=16'}
 
   conventional-commits-parser@5.0.0:
@@ -1084,6 +1092,11 @@ snapshots:
       - '@types/node'
       - typescript
 
+  '@commitlint/config-conventional@19.6.0':
+    dependencies:
+      '@commitlint/types': 19.5.0
+      conventional-changelog-conventionalcommits: 7.0.2
+
   '@commitlint/config-validator@19.5.0':
     dependencies:
       '@commitlint/types': 19.5.0
@@ -1379,9 +1392,10 @@ snapshots:
 
   '@cspell/url@8.16.0': {}
 
-  '@somehow-digital/commitlint-config@1.0.0(@commitlint/cli@19.6.0(@types/node@22.9.0)(typescript@5.5.4))(cspell@8.16.0)':
+  '@somehow-digital/commitlint-config@1.1.0(@commitlint/cli@19.6.0(@types/node@22.9.0)(typescript@5.5.4))(cspell@8.16.0)':
     dependencies:
       '@commitlint/cli': 19.6.0(@types/node@22.9.0)(typescript@5.5.4)
+      '@commitlint/config-conventional': 19.6.0
       '@somehow-digital/commitlint-plugin-spellcheck': 1.0.1(cspell@8.16.0)
     transitivePeerDependencies:
       - cspell
@@ -1506,6 +1520,10 @@ snapshots:
       yargs: 17.7.2
 
   conventional-changelog-angular@7.0.0:
+    dependencies:
+      compare-func: 2.0.0
+
+  conventional-changelog-conventionalcommits@7.0.2:
     dependencies:
       compare-func: 2.0.0
 
