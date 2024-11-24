@@ -3,6 +3,7 @@ astrojs
 commitlint
 dotenvx
 fontsource
+knip
 modernizr
 nuxt
 nuxtjs
