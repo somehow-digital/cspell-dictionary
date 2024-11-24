@@ -1,7 +1,9 @@
 name: RELEASE
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   source:
