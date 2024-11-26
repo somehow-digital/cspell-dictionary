@@ -20,7 +20,7 @@ importers:
         version: 1.1.0(@commitlint/cli@19.6.0(@types/node@22.9.0)(typescript@5.5.4))(cspell@8.16.0)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
-        version: 2.0.0(prettier@3.3.3)
+        version: 2.0.0(prettier@3.4.1)
       concurrently:
         specifier: ^9.0.0
         version: 9.1.0
@@ -34,8 +34,8 @@ importers:
         specifier: ^15.2.5
         version: 15.2.10
       prettier:
-        specifier: 3.3.3
-        version: 3.3.3
+        specifier: 3.4.1
+        version: 3.4.1
       semantic-release:
         specifier: ^24.2.0
         version: 24.2.0(typescript@5.5.4)
@@ -1513,8 +1513,8 @@ packages:
     resolution: {integrity: sha512-C+VUP+8jis7EsQZIhDYmS5qlNtjv2yP4SNtjXK9AP1ZcTRlnSfuumaTnRfYZnYgUUYVIKqL0fRvmUGDV2fmp6g==}
     engines: {node: '>=4'}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2408,9 +2408,9 @@ snapshots:
       cspell: 8.16.0
       cspell-lib: 8.16.0
 
-  '@somehow-digital/prettier-config@2.0.0(prettier@3.3.3)':
+  '@somehow-digital/prettier-config@2.0.0(prettier@3.4.1)':
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.1
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
@@ -3366,7 +3366,7 @@ snapshots:
       find-up: 2.1.0
       load-json-file: 4.0.0
 
-  prettier@3.3.3: {}
+  prettier@3.4.1: {}
 
   pretty-ms@9.2.0:
     dependencies:
