@@ -16,3 +16,4 @@ stackoverflow
 supabase
 ulidx
 valibot
+vite
