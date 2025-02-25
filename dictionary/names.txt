@@ -15,5 +15,6 @@ sonarcloud
 stackoverflow
 supabase
 ulidx
+unocss
 valibot
 vite
