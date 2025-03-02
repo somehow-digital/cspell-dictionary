@@ -1,5 +1,6 @@
 sublicensable
 codeowners
+conventionalcommits
 
 outdir
 nosniff
