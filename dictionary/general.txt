@@ -1,4 +1,5 @@
 sublicensable
+hoverable
 codeowners
 conventionalcommits
 
