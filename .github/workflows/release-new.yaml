@@ -1,10 +1,7 @@
 name: RELEASE NEW
 
 on:
-  push:
-    branches:
-      - main
-      - release-please-integration
+  pull_request:
 
 permissions:
   contents: write
