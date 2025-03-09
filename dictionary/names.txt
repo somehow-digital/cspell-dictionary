@@ -1,5 +1,6 @@
 astro
 astrojs
+autoprefixer
 commitlint
 dotenvx
 fontsource
