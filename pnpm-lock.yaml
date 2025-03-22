@@ -204,8 +204,8 @@ packages:
   '@cspell/dict-en-gb@1.1.33':
     resolution: {integrity: sha512-tKSSUf9BJEV+GJQAYGw5e+ouhEe2ZXE620S7BLKe3ZmpnjlNG9JqlnaBhkIMxKnNFkLY2BP/EARzw31AZnOv4g==}
 
-  '@cspell/dict-en_us@4.3.34':
-    resolution: {integrity: sha512-ewJXNV7Nk5vxbGvHvxYLDGoXN0Lq5sfSgX8SAlcYL+2bZ7r25nNOLHou5hdFlNgvviGTx/SFPlVKjdjVJlblgA==}
+  '@cspell/dict-en_us@4.3.35':
+    resolution: {integrity: sha512-HF6QNyPHkxeo/SosaZXRQlnKDUTjIzrGKyqfbw/fPPlPYrXefAZZ40ofheb5HnbUicR7xqV/lsc/HQfqYshGIw==}
 
   '@cspell/dict-filetypes@3.0.11':
     resolution: {integrity: sha512-bBtCHZLo7MiSRUqx5KEiPdGOmXIlDGY+L7SJEtRWZENpAKE+96rT7hj+TUUYWBbCzheqHr0OXZJFEKDgsG/uZg==}
@@ -281,8 +281,8 @@ packages:
   '@cspell/dict-node@5.0.6':
     resolution: {integrity: sha512-CEbhPCpxGvRNByGolSBTrXXW2rJA4bGqZuTx1KKO85mwR6aadeOmUE7xf/8jiCkXSy+qvr9aJeh+jlfXcsrziQ==}
 
-  '@cspell/dict-npm@5.1.30':
-    resolution: {integrity: sha512-qRMJZFz4FBPECH5rGQN9p2Ld6nfpSaPFQvlG6V2RowWcrJQqF4RFmLUNuRQpvndpSeIUo32yX1hxb7AT45ARCQ==}
+  '@cspell/dict-npm@5.1.31':
+    resolution: {integrity: sha512-Oh9nrhgNV4UD1hlbgO3TFQqQRKziwc7qXKoQiC4oqOYIhMs2WL9Ezozku7FY1e7o5XbCIZX9nRH0ymNx/Rwj6w==}
 
   '@cspell/dict-php@4.0.14':
     resolution: {integrity: sha512-7zur8pyncYZglxNmqsRycOZ6inpDoVd4yFfz1pQRe5xaRWMiK3Km4n0/X/1YMWhh3e3Sl/fQg5Axb2hlN68t1g==}
@@ -376,23 +376,23 @@ packages:
     resolution: {integrity: sha512-n57hXtOoHrhwTWdvhVkdJHdhTv0JstjDbDRhJfwIRNfFqmSo1DaK/mD2syoNUoLCyqSjBpGAKOG0BuwF392slw==}
     engines: {node: '>= 18'}
 
-  '@octokit/openapi-types@23.0.1':
-    resolution: {integrity: sha512-izFjMJ1sir0jn0ldEKhZ7xegCTj/ObmEDlEfpFrx4k/JyZSMRHbO3/rBwgE7f3m2DHt+RrNGIVw4wSmwnm3t/g==}
+  '@octokit/openapi-types@24.2.0':
+    resolution: {integrity: sha512-9sIH3nSUttelJSXUrmGzl7QUBFul0/mB8HRYl3fOlgHbIWG+WnYDXU3v/2zMtAvuzZ/ed00Ei6on975FhBfzrg==}
 
-  '@octokit/plugin-paginate-rest@11.4.3':
-    resolution: {integrity: sha512-tBXaAbXkqVJlRoA/zQVe9mUdb8rScmivqtpv3ovsC5xhje/a+NOCivs7eUhWBwCApJVsR4G5HMeaLbq7PxqZGA==}
+  '@octokit/plugin-paginate-rest@11.6.0':
+    resolution: {integrity: sha512-n5KPteiF7pWKgBIBJSk8qzoZWcUkza2O6A0za97pMGVrGfPdltxrfmfF5GucHYvHGZD8BdaZmmHGz5cX/3gdpw==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': '>=6'
 
-  '@octokit/plugin-retry@7.1.4':
-    resolution: {integrity: sha512-7AIP4p9TttKN7ctygG4BtR7rrB0anZqoU9ThXFk8nETqIfvgPUANTSYHqWYknK7W3isw59LpZeLI8pcEwiJdRg==}
+  '@octokit/plugin-retry@7.2.0':
+    resolution: {integrity: sha512-psMbEYb/Fh+V+ZaFo8J16QiFz4sVTv3GntCSU+hYqzHiMdc3P+hhHLVv+dJt0PGIPAGoIA5u+J2DCJdK6lEPsQ==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': '>=6'
 
-  '@octokit/plugin-throttling@9.4.0':
-    resolution: {integrity: sha512-IOlXxXhZA4Z3m0EEYtrrACkuHiArHLZ3CvqWwOez/pURNqRuwfoFlTPbN5Muf28pzFuztxPyiUiNwz8KctdZaQ==}
+  '@octokit/plugin-throttling@9.6.0':
+    resolution: {integrity: sha512-zn7m1N3vpJDaVzLqjCRdJ0cRzNiekHEWPi8Ww9xyPNrDt5PStHvVE0eR8wy4RSU8Eg7YO8MHyvn6sv25EGVhhg==}
     engines: {node: '>= 18'}
     peerDependencies:
       '@octokit/core': ^6.1.3
@@ -405,8 +405,8 @@ packages:
     resolution: {integrity: sha512-dZl0ZHx6gOQGcffgm1/Sf6JfEpmh34v3Af2Uci02vzUYz6qEN6zepoRtmybWXIGXFIK8K9ylE3b+duCWqhArtg==}
     engines: {node: '>= 18'}
 
-  '@octokit/types@13.8.0':
-    resolution: {integrity: sha512-x7DjTIbEpEWXK99DMd01QfWy0hd5h4EN+Q7shkdKds3otGQP+oWE/y0A76i1OvH9fygo4ddvNf7ZvF0t78P98A==}
+  '@octokit/types@13.10.0':
+    resolution: {integrity: sha512-ifLaO34EbbPj0Xgro4G5lP5asESjwHracYJvVaPIyXMuiuXLlhic3S47cBdTb+jfODkTE5YtGCLt3Ay3+J97sA==}
 
   '@pnpm/config.env-replace@1.1.0':
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
@@ -2059,7 +2059,7 @@ snapshots:
       '@cspell/dict-elixir': 4.0.7
       '@cspell/dict-en-common-misspellings': 2.0.10
       '@cspell/dict-en-gb': 1.1.33
-      '@cspell/dict-en_us': 4.3.34
+      '@cspell/dict-en_us': 4.3.35
       '@cspell/dict-filetypes': 3.0.11
       '@cspell/dict-flutter': 1.1.0
       '@cspell/dict-fonts': 4.0.4
@@ -2083,7 +2083,7 @@ snapshots:
       '@cspell/dict-markdown': 2.0.9(@cspell/dict-css@4.0.17)(@cspell/dict-html-symbol-entities@4.0.3)(@cspell/dict-html@4.0.11)(@cspell/dict-typescript@3.2.0)
       '@cspell/dict-monkeyc': 1.0.10
       '@cspell/dict-node': 5.0.6
-      '@cspell/dict-npm': 5.1.30
+      '@cspell/dict-npm': 5.1.31
       '@cspell/dict-php': 4.0.14
       '@cspell/dict-powershell': 5.0.14
       '@cspell/dict-public-licenses': 2.0.13
@@ -2153,7 +2153,7 @@ snapshots:
 
   '@cspell/dict-en-gb@1.1.33': {}
 
-  '@cspell/dict-en_us@4.3.34': {}
+  '@cspell/dict-en_us@4.3.35': {}
 
   '@cspell/dict-filetypes@3.0.11': {}
 
@@ -2206,7 +2206,7 @@ snapshots:
 
   '@cspell/dict-node@5.0.6': {}
 
-  '@cspell/dict-npm@5.1.30': {}
+  '@cspell/dict-npm@5.1.31': {}
 
   '@cspell/dict-php@4.0.14': {}
 
@@ -2273,56 +2273,56 @@ snapshots:
       '@octokit/graphql': 8.2.1
       '@octokit/request': 9.2.2
       '@octokit/request-error': 6.1.7
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
       before-after-hook: 3.0.2
       universal-user-agent: 7.0.2
 
   '@octokit/endpoint@10.1.3':
     dependencies:
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
       universal-user-agent: 7.0.2
 
   '@octokit/graphql@8.2.1':
     dependencies:
       '@octokit/request': 9.2.2
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
       universal-user-agent: 7.0.2
 
-  '@octokit/openapi-types@23.0.1': {}
+  '@octokit/openapi-types@24.2.0': {}
 
-  '@octokit/plugin-paginate-rest@11.4.3(@octokit/core@6.1.4)':
+  '@octokit/plugin-paginate-rest@11.6.0(@octokit/core@6.1.4)':
     dependencies:
       '@octokit/core': 6.1.4
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
 
-  '@octokit/plugin-retry@7.1.4(@octokit/core@6.1.4)':
+  '@octokit/plugin-retry@7.2.0(@octokit/core@6.1.4)':
     dependencies:
       '@octokit/core': 6.1.4
       '@octokit/request-error': 6.1.7
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
       bottleneck: 2.19.5
 
-  '@octokit/plugin-throttling@9.4.0(@octokit/core@6.1.4)':
+  '@octokit/plugin-throttling@9.6.0(@octokit/core@6.1.4)':
     dependencies:
       '@octokit/core': 6.1.4
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
       bottleneck: 2.19.5
 
   '@octokit/request-error@6.1.7':
     dependencies:
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
 
   '@octokit/request@9.2.2':
     dependencies:
       '@octokit/endpoint': 10.1.3
       '@octokit/request-error': 6.1.7
-      '@octokit/types': 13.8.0
+      '@octokit/types': 13.10.0
       fast-content-type-parse: 2.0.1
       universal-user-agent: 7.0.2
 
-  '@octokit/types@13.8.0':
+  '@octokit/types@13.10.0':
     dependencies:
-      '@octokit/openapi-types': 23.0.1
+      '@octokit/openapi-types': 24.2.0
 
   '@pnpm/config.env-replace@1.1.0': {}
 
@@ -2357,9 +2357,9 @@ snapshots:
   '@semantic-release/github@11.0.1(semantic-release@24.2.3(typescript@5.8.2))':
     dependencies:
       '@octokit/core': 6.1.4
-      '@octokit/plugin-paginate-rest': 11.4.3(@octokit/core@6.1.4)
-      '@octokit/plugin-retry': 7.1.4(@octokit/core@6.1.4)
-      '@octokit/plugin-throttling': 9.4.0(@octokit/core@6.1.4)
+      '@octokit/plugin-paginate-rest': 11.6.0(@octokit/core@6.1.4)
+      '@octokit/plugin-retry': 7.2.0(@octokit/core@6.1.4)
+      '@octokit/plugin-throttling': 9.6.0(@octokit/core@6.1.4)
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
       debug: 4.4.0
