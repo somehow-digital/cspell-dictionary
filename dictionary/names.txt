@@ -7,6 +7,7 @@ fontsource
 knip
 modernizr
 nuxt
+nuxthub
 nuxtjs
 nvmrc
 pandacss
