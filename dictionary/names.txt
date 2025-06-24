@@ -22,3 +22,7 @@ ulidx
 unocss
 valibot
 vite
+vitejs
+vue
+vuejs
+vueuse
