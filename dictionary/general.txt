@@ -2,6 +2,7 @@ sublicensable
 hoverable
 codeowners
 conventionalcommits
+persistedstate
 
 outdir
 nosniff
