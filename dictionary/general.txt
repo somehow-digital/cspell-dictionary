@@ -3,6 +3,7 @@ hoverable
 codeowners
 conventionalcommits
 persistedstate
+preflights
 
 outdir
 nosniff
