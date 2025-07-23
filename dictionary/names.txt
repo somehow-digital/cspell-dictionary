@@ -1,9 +1,11 @@
+antfu
 astro
 astrojs
 autoprefixer
 commitlint
 dotenvx
 fontsource
+iconify
 knip
 modernizr
 nuxt
