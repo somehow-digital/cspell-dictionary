@@ -6,6 +6,7 @@ commitlint
 dotenvx
 fontsource
 iconify
+jiti
 knip
 modernizr
 nuxt
