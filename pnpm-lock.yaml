@@ -20,7 +20,7 @@ importers:
         version: 1.1.0(@commitlint/cli@20.3.1(@types/node@25.0.6)(typescript@5.9.3))(cspell@9.6.0)
       '@somehow-digital/prettier-config':
         specifier: ^3.0.0
-        version: 3.0.0(prettier@3.7.4)
+        version: 3.0.0(prettier@3.8.0)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
         version: 2.0.2(semantic-release@25.0.2(typescript@5.9.3))
@@ -37,8 +37,8 @@ importers:
         specifier: ^16.0.0
         version: 16.2.7
       prettier:
-        specifier: 3.7.4
-        version: 3.7.4
+        specifier: 3.8.0
+        version: 3.8.0
       semantic-release:
         specifier: ^25.0.0
         version: 25.0.2(typescript@5.9.3)
@@ -1501,8 +1501,8 @@ packages:
     resolution: {integrity: sha512-C+VUP+8jis7EsQZIhDYmS5qlNtjv2yP4SNtjXK9AP1ZcTRlnSfuumaTnRfYZnYgUUYVIKqL0fRvmUGDV2fmp6g==}
     engines: {node: '>=4'}
 
-  prettier@3.7.4:
-    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
+  prettier@3.8.0:
+    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2445,9 +2445,9 @@ snapshots:
       cspell: 9.6.0
       cspell-lib: 9.6.0
 
-  '@somehow-digital/prettier-config@3.0.0(prettier@3.7.4)':
+  '@somehow-digital/prettier-config@3.0.0(prettier@3.8.0)':
     dependencies:
-      prettier: 3.7.4
+      prettier: 3.8.0
 
   '@somehow-digital/semantic-release-config@2.0.2(semantic-release@25.0.2(typescript@5.9.3))':
     dependencies:
@@ -3362,7 +3362,7 @@ snapshots:
       find-up: 2.1.0
       load-json-file: 4.0.0
 
-  prettier@3.7.4: {}
+  prettier@3.8.0: {}
 
   pretty-ms@9.3.0:
     dependencies:
