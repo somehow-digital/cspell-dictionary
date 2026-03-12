@@ -30,3 +30,4 @@ vitejs
 vue
 vuejs
 vueuse
+vitest
