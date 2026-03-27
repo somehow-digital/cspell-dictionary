@@ -3,7 +3,9 @@ astro
 astrojs
 autoprefixer
 commitlint
+demi
 dotenvx
+esbuild
 fontsource
 iconify
 jiti
@@ -31,3 +33,4 @@ vue
 vuejs
 vueuse
 vitest
+workerd
