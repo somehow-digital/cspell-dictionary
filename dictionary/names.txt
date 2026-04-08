@@ -6,6 +6,7 @@ commitlint
 demi
 dotenvx
 esbuild
+fontshare
 fontsource
 iconify
 jiti
@@ -23,6 +24,7 @@ reka
 sonarcloud
 stackoverflow
 supabase
+trufflesecurity
 undici
 ulidx
 unocss
