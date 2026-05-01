@@ -26,6 +26,7 @@ stackoverflow
 supabase
 trufflesecurity
 undici
+unplugin
 ulidx
 unocss
 valibot
