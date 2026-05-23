@@ -17,6 +17,7 @@ nuxthub
 nuxtjs
 nvmrc
 pandacss
+phpstan
 pinia
 qwik
 qwikdev
