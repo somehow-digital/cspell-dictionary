@@ -20,7 +20,7 @@ importers:
         version: 1.3.0(@commitlint/cli@21.1.0(@types/node@25.6.0)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)(typescript@6.0.3))(cspell@10.0.1)
       '@somehow-digital/prettier-config':
         specifier: ^3.0.0
-        version: 3.0.0(prettier@3.8.4)
+        version: 3.0.0(prettier@3.8.5)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
         version: 2.1.0(semantic-release@25.0.5(typescript@6.0.3))
@@ -37,8 +37,8 @@ importers:
         specifier: ^17.0.0
         version: 17.0.8
       prettier:
-        specifier: 3.8.4
-        version: 3.8.4
+        specifier: 3.8.5
+        version: 3.8.5
       semantic-release:
         specifier: ^25.0.0
         version: 25.0.5(typescript@6.0.3)
@@ -937,6 +937,7 @@ packages:
   git-raw-commits@5.0.1:
     resolution: {integrity: sha512-Y+csSm2GD/PCSh6Isd/WiMjNAydu0VBiG9J7EdQsNA5P9uXvLayqjmTsNlK5Gs9IhblFZqOU0yid5Il5JPoLiQ==}
     engines: {node: '>=18'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   global-directory@5.0.0:
@@ -1420,8 +1421,8 @@ packages:
     resolution: {integrity: sha512-C+VUP+8jis7EsQZIhDYmS5qlNtjv2yP4SNtjXK9AP1ZcTRlnSfuumaTnRfYZnYgUUYVIKqL0fRvmUGDV2fmp6g==}
     engines: {node: '>=4'}
 
-  prettier@3.8.4:
-    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
+  prettier@3.8.5:
+    resolution: {integrity: sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2372,9 +2373,9 @@ snapshots:
       cspell: 10.0.1
       cspell-lib: 10.0.1
 
-  '@somehow-digital/prettier-config@3.0.0(prettier@3.8.4)':
+  '@somehow-digital/prettier-config@3.0.0(prettier@3.8.5)':
     dependencies:
-      prettier: 3.8.4
+      prettier: 3.8.5
 
   '@somehow-digital/semantic-release-config@2.1.0(semantic-release@25.0.5(typescript@6.0.3))':
     dependencies:
@@ -3203,7 +3204,7 @@ snapshots:
       find-up: 2.1.0
       load-json-file: 4.0.0
 
-  prettier@3.8.4: {}
+  prettier@3.8.5: {}
 
   pretty-ms@9.3.0:
     dependencies:
