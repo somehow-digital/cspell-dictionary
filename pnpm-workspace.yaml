@@ -1,6 +1,8 @@
 blockExoticSubdeps: true
 enablePrePostScripts: false
 optimisticRepeatInstall: true
+overrides:
+  vite@*: npm:@voidzero-dev/vite-plus-core@1.4.0
 shellEmulator: true
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 10080

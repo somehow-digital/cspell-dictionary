@@ -11,7 +11,7 @@
 		"pnpm": ">=10"
 	},
 	"scripts": {
-		"prepare": "husky",
+		"prepare": "vp config --no-agent",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml,js}'",
 		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
@@ -37,9 +37,8 @@
 		"@somehow-digital/semantic-release-config": "^2.0.0",
 		"concurrently": "^10.0.0",
 		"cspell": "^10.0.0",
-		"husky": "^9.0.11",
-		"lint-staged": "^17.0.0",
 		"prettier": "3.9.10",
-		"semantic-release": "^25.0.0"
+		"semantic-release": "^25.0.0",
+		"vite-plus": "1.4.0"
 	}
 }
