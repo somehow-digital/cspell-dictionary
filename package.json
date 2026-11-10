@@ -39,6 +39,6 @@
 		"cspell": "^10.0.0",
 		"prettier": "3.9.10",
 		"semantic-release": "^25.0.0",
-		"vite-plus": "1.5.0"
+		"vite-plus": "1.5.1"
 	}
 }
