@@ -37,7 +37,7 @@
 		"@somehow-digital/semantic-release-config": "^2.0.0",
 		"concurrently": "^10.0.0",
 		"cspell": "^10.0.0",
-		"prettier": "3.9.10",
+		"prettier": "3.10.0",
 		"semantic-release": "^25.0.0",
 		"vite-plus": "1.6.0"
 	}
