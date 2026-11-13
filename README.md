@@ -9,3 +9,7 @@
 ```sh
 pnpm add -D @somehow-digital/cspell-dictionary
 ```
+
+---
+
+[`somehow.digital`](https://somehow.digital/)
