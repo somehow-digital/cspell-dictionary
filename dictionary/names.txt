@@ -5,6 +5,7 @@ autoprefixer
 commitlint
 demi
 dotenvx
+ergebnis
 esbuild
 fontshare
 fontsource
@@ -25,6 +26,7 @@ reka
 sonarcloud
 stackoverflow
 supabase
+symplify
 trufflesecurity
 undici
 unplugin
