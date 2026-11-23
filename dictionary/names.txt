@@ -40,3 +40,5 @@ vuejs
 vueuse
 vitest
 workerd
+zizmor
+zizmorcore
